@@ -1,8 +1,30 @@
-title: My Jekyll Site
+# Site settings
+title: Noam Bergman's Insightful Blog
+description: A blog about Machine Learning, Deep Learning and Computer Vision
 url: https://noamberg.github.io
 
+# Default values for Front Matter
 defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "Noam Bergman"
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
   - scope:
       path: ""
     values:
       layout: "default"
+      comments: true
+
+# Build settings
+markdown: kramdown
+permalink: /blog/:title
+
+plugins:
+  - jekyll-feed
