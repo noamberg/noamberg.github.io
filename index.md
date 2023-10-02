@@ -1,5 +1,5 @@
 ---
-title: Home
+title: Noam Bergman's Blog
 ---
 
 # Welcome to Noam Bergman's blog!
